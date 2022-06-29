@@ -1,0 +1,87 @@
+Private textMailHolder = "Enter your mail"
+    Private Sub txtEmail_focus(sender As Object, e As EventArgs) Handles txtEmail.GotFocus
+        If txtEmail.Text = textMailHolder Then
+            txtEmail.Text = ""
+        End If
+    End Sub
+
+    Private Sub txtEmail_lost_focus(sender As Object, e As EventArgs) Handles txtEmail.LostFocus
+        If txtEmail.Text = "" Then
+            txtEmail.Text = textMailHolder
+        End If
+
+========================================>>>>>>>>>>>>>>>>>'textbox Email khi load form hien chu
+
+    Private textMailHolder = "Enter your email"
+    Private Sub txtEmail_focus(sender As Object, e As EventArgs) Handles txtEmail.GotFocus
+        If txtEmail.Text = textMailHolder Then
+            txtEmail.Text = ""
+        End If
+    End Sub
+
+    Private Sub txtEmail_lost_focus(sender As Object, e As EventArgs) Handles txtEmail.LostFocus
+        If txtEmail.Text = "" Then
+            txtEmail.Text = textMailHolder
+        End If
+    End Sub
+    '==============
+
+    Private textfirstnamelHolder = "Enter your firstname"
+    Private Sub txtfirstname_focus(sender As Object, e As EventArgs) Handles txtFirstname.GotFocus
+        If txtFirstname.Text = textfirstnamelHolder Then
+            txtFirstname.Text = ""
+
+
+        End If
+    End Sub
+
+    Private Sub txtfirstname_lost_focus(sender As Object, e As EventArgs) Handles txtFirstname.LostFocus
+        If txtFirstname.Text = "" Then
+            txtFirstname.Text = textfirstnamelHolder
+
+
+        End If
+    End Sub
+    '==============
+
+    Private textlastnamelHolder = "Enter your lastname"
+    Private Sub txtlastname_focus(sender As Object, e As EventArgs) Handles txtLastname.GotFocus
+        If txtLastname.Text = textlastnamelHolder Then
+            txtLastname.Text = ""
+        End If
+    End Sub
+
+    Private Sub txtlastname_lost_focus(sender As Object, e As EventArgs) Handles txtLastname.LostFocus
+        If txtLastname.Text = "" Then
+            txtLastname.Text = textlastnamelHolder
+        End If
+    End Sub
+    '==============
+
+    Private textpasslHolder = "Enter your password"
+    Private Sub txtpass_focus(sender As Object, e As EventArgs) Handles txtPass.GotFocus
+        If txtPass.Text = textpasslHolder Then
+            txtPass.Text = ""
+        End If
+    End Sub
+
+    Private Sub txtpass_lost_focus(sender As Object, e As EventArgs) Handles txtPass.LostFocus
+        If txtPass.Text = "" Then
+            txtPass.Text = textpasslHolder
+        End If
+    End Sub
+    '==============
+
+    Private textCpasslHolder = "Enter your password"
+    Private Sub txtCpass_focus(sender As Object, e As EventArgs) Handles txtCpass.GotFocus
+        If txtCpass.Text = textCpasslHolder Then
+            txtCpass.Text = ""
+        End If
+    End Sub
+
+    Private Sub txtCpass_lost_focus(sender As Object, e As EventArgs) Handles txtCpass.LostFocus
+        If txtCpass.Text = "" Then
+            txtCpass.Text = textCpasslHolder
+        End If
+    End Sub
+>>>>>>>>
